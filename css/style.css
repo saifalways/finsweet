@@ -1,3 +1,36 @@
-.navbar{
+.navbar {
     background: #1C1E53;
+    padding: 16px 0 !important;
+}
+
+.nav-btn {
+    background: transparent;
+    padding: 16px 48px;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    color: #F4F6FC;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 0 48px;
+    font-family: "Poppins", sans-serif;
+}
+.nav-btn:hover {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    column-gap: 32px;
+}
+
+.nav-link {
+    font-size: 16px !important;
+    color: #BBBBCB !important;
+    font-weight: 500 !important;
+    padding: 0 !important;
+    transition: .4s !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.nav-link:hover {
+    color: #FFFFFF !important;
 }
