@@ -1,3 +1,6 @@
+
+/*! Navbar */
+
 .navbar {
     background: #1C1E53;
     padding: 16px 0 !important;
@@ -13,9 +16,11 @@
     font-weight: 500;
     margin: 0 0 0 48px;
     font-family: "Poppins", sans-serif;
+    transition: .4s;
 }
 .nav-btn:hover {
-    background-color: transparent;
+    background-color: #FCD980;
+    color: #000;
 }
 
 .navbar-nav {
