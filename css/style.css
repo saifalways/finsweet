@@ -1,3 +1,9 @@
+a {
+    text-decoration: none !important;
+}
+
+
+
 /*! Navbar */
 
 .navbar {
@@ -46,6 +52,7 @@
     background: #1C1E53;
     padding: 126px 0;
 }
+
 .heroArea .row {
     align-items: center;
 }
@@ -85,4 +92,61 @@
     background: transparent;
     color: #F4F6FC;
     border: 1px solid rgba(244, 246, 252, 0.2) !important;
+}
+
+
+
+
+/* !workarea */
+
+.work {
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+
+.work .title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: 282938;
+}
+
+.work .title p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    width: 405px;
+    margin: 16px 0 16px 0;
+}
+
+.work .title a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #2405F2;
+}
+
+.work .work_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work .work_card {
+    width: 50%;
+    padding: 15px 0;
+}
+
+.work .work_card h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    margin: 16px 0 8px 0;
+}
+
+.work .work_card p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 303px;
+    color: #282938;
 }
