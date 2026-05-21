@@ -222,12 +222,35 @@ a {
     color: #282938;
 }
 
-.project .title a {
+
+
+.project .title .ancor {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 0 ;
+    position: relative;
+}
+
+.project .title .ancor a {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #282938;
+    margin: 0 15px 0 0 ;
 }
+
+.project .title .ancor i {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.project .title .ancor:hover i {
+    left: 110px;
+}
+
 
 .project .col-lg-8 .img {
     position: relative;
@@ -280,6 +303,36 @@ a {
     color: #FCD980;
 }
 
+
+
+.project .col-lg-8 .overly .ancor {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.project .col-lg-8 .overly .ancor a {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FCD980;
+}
+
+.project .col-lg-8 .overly i {
+    color: #FCD980;
+    position: absolute;
+    top: 50%;
+    left: 105px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.project .col-lg-8 .overly .ancor:hover i {
+    left: 125px;
+}
+
+
+
 .project .col-lg-4 .imgOne {
     width: 415px;
     height: 284px;
@@ -318,12 +371,36 @@ a {
     margin: 0 0 16px 0;
 }
 
-.project .col-lg-4 .overly a {
-    font-size: 17px;
+.project .col-lg-4 .overly .ancor {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.project .col-lg-4 .overly .ancor a {
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #FCD980;
 }
+
+.project .col-lg-4 .overly i {
+    color: #FCD980;
+    position: absolute;
+    top: 50%;
+    left: 105px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.project .col-lg-4 .overly .ancor:hover i {
+    left: 125px;
+}
+
+
+
+
+/*  */
 
 .project .col-lg-4 .imgTwo {
     width: 415px;
