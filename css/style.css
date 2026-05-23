@@ -677,6 +677,11 @@ a {
 
 
 
+
+
+
+
+
 .contact_Card {
     background-color: #ffffff;
     padding: 128px 0 78px 0;
@@ -750,12 +755,14 @@ a {
     padding: 107px 96px 38px;
     background-color: #1C1E53;
 }
+
 .contact_Card .row .right h4 {
     font-size: 32px;
     font-weight: 500;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
 }
+
 .contact_Card .row .right p {
     font-size: 16px;
     color: #FFFFFF;
@@ -764,39 +771,45 @@ a {
     font-weight: 300;
     margin: 17px 0 40px 0;
 }
-.contact_Card .row .right .form-control  {
+
+.contact_Card .row .right .form-control {
     color: #FFFFFF;
     background-color: transparent;
     padding: 18px 0 18px 32px;
     border: 1px solid rgba(244, 246, 252, 0.2) !important;
 }
-.contact_Card .row .right .btn  {
+
+.contact_Card .row .right .btn {
     margin: 34px 0 34px 0;
     color: #ffffff;
     width: 100%;
     background-color: transparent;
     border-radius: 40px;
     padding: 16px 150px;
-    border: 1px solid rgba(244, 246, 252, 0.2) ;
+    border: 1px solid rgba(244, 246, 252, 0.2);
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     transition: 0.4s;
 }
-.contact_Card .row .right .btn:hover  {
+
+.contact_Card .row .right .btn:hover {
     color: #1B1C2B;
     background-color: #FCD980;
 }
-.contact_Card .row .right .ancor  {
+
+.contact_Card .row .right .ancor {
     position: relative;
     text-align: center;
 }
-.contact_Card .row .right .ancor a  {
+
+.contact_Card .row .right .ancor a {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #FFFFFF;
 }
-.contact_Card .row .right .ancor i  {
+
+.contact_Card .row .right .ancor i {
     position: absolute;
     font-size: 18px;
     color: #FFFFFF;
@@ -805,6 +818,7 @@ a {
     transform: translateY(-50%);
     transition: 0.4s;
 }
-.contact_Card .row .right .ancor:hover i  {
+
+.contact_Card .row .right .ancor:hover i {
     left: 360px;
 }
