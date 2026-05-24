@@ -822,3 +822,100 @@ a {
 .contact_Card .row .right .ancor:hover i {
     left: 360px;
 }
+
+
+
+
+
+/*!       blog        */
+
+
+
+
+
+.blog {
+    padding: 77px 0 180px 0;
+}
+
+.blog .title {
+    margin: 0 0 64px 0;
+}
+
+.blog .title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+
+.blog .row {
+
+    justify-content: space-between !important;
+}
+
+.blog .card {
+    border-radius: 0;
+    border: 0;
+}
+
+.blog .card img {
+    border-radius: 0;
+}
+
+.blog .card .card-body {
+    padding: 0;
+}
+
+.blog .card .card-body .card-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 40px 0 16px 0;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.blog .card .card-body .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    margin: 0 0 16px 0;
+
+}
+
+.blog .card .card-body .card-text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    margin: 0 0 32px 0;
+
+}
+
+.blog .card .card-body .ancor {
+    position: relative;
+
+}
+
+.blog .card .card-body .ancor a {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    color: #282938;
+}
+
+.blog .card .card-body .ancor i {
+    position: absolute;
+    font-size: 18px;
+    color: #282938;
+    left: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.blog .card .card-body .ancor:hover i {
+    left: 130px;
+}
