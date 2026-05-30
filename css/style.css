@@ -840,7 +840,15 @@ a {
 
 .blog .card {
     border-radius: 0;
-    border: 0;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 0 0 8px 8px;
+
+}
+.blog .card:hover {
+    border: 1px solid rgba(50, 38, 38, 0.2);
+
 }
 
 .blog .card img {
