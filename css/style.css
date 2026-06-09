@@ -434,7 +434,7 @@ a {
     width: 100%;
     height: 100%;
     content: "";
-    background-image: linear-gradient(300deg, #1c1e54, rgba(28, 30, 84, .42));
+    background-image: linear-gradient(180deg, #1c1e54, rgba(28, 30, 84, .42));
     transition: .4s;
 }
 
@@ -509,6 +509,10 @@ a {
 
 
 /* !features */
+
+
+
+
 
 
 
@@ -664,6 +668,12 @@ a {
 
 /*!        FAQ         */
 
+
+
+
+
+
+
 .faq {
     background: #FFFFFF;
     margin: 130px 0;
@@ -686,19 +696,41 @@ a {
     font-weight: 500;
 }
 
-.faq .col-lg-8 {}
-
-
 .faq .col-lg-8 .accordion-item {
     margin: 0 0 55px 0;
-    border: 1px solid transparent !important;
+    border: 0;
 }
+
 
 .faq .col-lg-8 .accordion-item .accordion-button {
     font-size: 24px;
     color: #282938;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    background: none;
+    box-shadow: 0px 0px transparent;
+}
+
+.faq .col-lg-8 .accordion-item .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    transform: translateY(-20%) rotate(0) !important;
+}
+
+.faq .col-lg-8 .accordion-item .accordion-button::after {
+    background-image: none;
+    content: "+";
+    transform: translateY(-20%) rotate(0) !important;
+}
+
+/*
+.faq .col-lg-8 .accordion-item .accordion-button.collapsed {
+    background-color: transparent !important;
+}
+*/
+
+.accordion-button:focus {
+    box-shadow: 0 0 transparent !important;
 }
 
 .faq .col-lg-8 .accordion-item .accordion-button span {
@@ -709,11 +741,8 @@ a {
     margin: 0 55px 0 0;
 }
 
-.faq .col-lg-8 .accordion-item .collapse {
-    
-}
 
-.faq .col-lg-8 .accordion-item p {
+.faq .col-lg-8 .accordion-body p {
     font-size: 18px;
     color: #282938;
     padding: 0 78px;
@@ -836,6 +865,10 @@ a {
     background-color: transparent;
     padding: 18px 0 18px 32px;
     border: 1px solid rgba(244, 246, 252, 0.2) !important;
+}
+
+.contact_Card .row .right .form-control::placeholder {
+    color: #989ba5;
 }
 
 .contact_Card .row .right .btn {
