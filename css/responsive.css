@@ -82,7 +82,7 @@
     }
 
     .heroArea p {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 24px;
         width: auto;
         text-align: center;
@@ -120,6 +120,8 @@
 
     /*!        work        */
 
+
+
     .work {
         padding: 0;
     }
@@ -150,6 +152,7 @@
         box-shadow: 0px 0px 3px black;
         margin: 0 auto;
     }
+
     .work .work_card:hover {
         border: 1px solid transparent;
     }
@@ -160,6 +163,7 @@
 
     .work .work_card h4 {
         font-size: 23px;
+        font-weight: 600;
 
     }
 
@@ -168,7 +172,251 @@
         width: auto;
     }
 
-}
+
+
+
+
+
+
+    /*!         projects           */
+
+
+
+
+    .project {
+        padding: 60px 0;
+    }
+
+    .project .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 30px 0;
+    }
+
+    .project .title h2 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #282938;
+        margin: 0;
+    }
+
+    .project .title .ancor {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        position: relative;
+    }
+
+    .project .title .ancor i {
+        left: 200px;
+    }
+
+    .project .title .ancor:hover i {
+        left: 200px;
+    }
+
+    .project .title .ancor a {
+        font-size: 13px;
+
+    }
+
+    .project .col-lg-8 .img {
+        margin: 0 auto;
+        width: 91%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .project .col-lg-8 .img:hover .overly {
+        left: -50%;
+    }
+
+    .project .col-lg-4 .imgOne {
+        width: 91%;
+        height: auto;
+        margin: 15px auto;
+        /* position: relative; */
+        /* overflow: hidden; */
+    }
+
+    .project .col-lg-4 .imgOne:hover .overly {
+        top: -100%;
+        left: -100%;
+    }
+
+    .project .col-lg-4 .imgTwo {
+        width: 91%;
+        height: auto;
+        margin: 15px auto;
+    }
+
+    .project .col-lg-4 .imgTwo:hover::after {
+        bottom: -100%;
+        right: -100%;
+    }
+
+    .project .col-lg-4 .imgTwo:hover .overly {
+        top: -100%;
+        left: -100%;
+    }
+
+
+
+
+
+
+
+
+    /*!        Features        */
+
+
+
+    .features {
+        padding: 35px 0 40px 0;
+    }
+
+    .features .title p {
+        font-size: 15px;
+    }
+
+    .features .title h2 {
+        font-size: 22px;
+        width: auto;
+        line-height: 30px;
+    }
+
+    .features .row .col-lg-4 .card {
+        padding: 25px 15px;
+        text-align: center;
+        box-shadow: 0px 1px 3px black;
+    }
+
+    .features .row .col-lg-4 .card:hover {
+        border: 1px solid transparent;
+
+    }
+
+    .features .row .col-lg-4 .card i {
+        margin: 0 auto;
+    }
+
+    .features .row .col-lg-4 .card p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        width: auto;
+        line-height: 25px;
+    }
+
+
+
+
+
+
+
+
+
+    /*!      about        */
+
+
+    .about {
+        padding: 20px 0;
+
+    }
+
+    .about .col-lg-4 {
+        text-align: center;
+        /* width: auto; */
+
+    }
+
+    .about .col-lg-4 h4 {
+        font-size: 22px;
+        font-weight: 600;
+        width: auto;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .about .col-lg-4 p {
+        font-size: 12px;
+        width: auto;
+        margin: 20px 0;
+    }
+
+    .about .col-lg-8 {
+        text-align: center;
+    }
+
+    .about .col-lg-8 h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about .col-lg-8 .profile {
+        margin: 30px 0 0 0;
+        justify-content: center;
+    }
+
+    .about .col-lg-8 .profile .details h6 {
+        font-size: 14px;
+    }
+
+    .about .col-lg-8 .profile .details p {
+        font-size: 10px;
+    }
+
+
+
+
+
+    /*!      faQ        */
+
+
+
+    .faq {
+        
+        margin: 30px 0;
+    }
+
+    .faq .col-lg-4 .title {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .faq .col-lg-4 h3 {
+        font-size: 21px;
+        width: auto;
+        text-align: center;
+        line-height: 39px;
+        margin: 0px 0 5px 0;
+    }
+
+    .faq .col-lg-8 .accordion-item {
+        margin: 0;
+    }
+
+    .faq .col-lg-8 .accordion-item .accordion-button span {
+        font-size: 18px;
+        margin: 0px 20px 0 0;
+    }
+
+    .faq .col-lg-8 .accordion-item .accordion-button {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .faq .col-lg-8 .accordion-body p {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        line-height: 22px;
+    }
+
+
 
 
 
