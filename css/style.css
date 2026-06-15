@@ -99,7 +99,7 @@ a {
 
 .heroArea {
     background: #1C1E53;
-    padding: 126px 0;
+    padding: 125px 0;
 }
 
 .heroArea .row {
@@ -956,7 +956,7 @@ a {
 }
 
 .blog .card:hover {
-    border: 1px solid rgba(50, 38, 38, 0.2);
+    box-shadow: 1px 1px 1px black;
 
 }
 
