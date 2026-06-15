@@ -69,16 +69,16 @@
 
     .heroArea {
         background: #1C1E53;
-        padding: 15px 0 25px 0;
+        padding: 15px 0 50px 0;
     }
 
 
     .heroArea h1 {
-        font-size: 27px;
+        font-size: 30px;
         font-weight: 600;
-        color: #FFFFFF;
         line-height: 40px;
         text-align: center;
+        margin: 20px 0 0 0;
     }
 
     .heroArea p {
@@ -94,11 +94,12 @@
 
     .heroArea button {
         background: transparent;
-        padding: 7px 15px;
+        padding: 12px 30px;
         margin: 25px 0 25px 0;
         font-size: 15px;
         color: #F4F6FC;
         border: 1px solid rgba(244, 246, 252, 0.2) !important;
+        letter-spacing: 1px;
     }
 
 
@@ -123,7 +124,7 @@
 
 
     .work {
-        padding: 0;
+        padding: 25px 0 50px 0;
     }
 
     .work .title {
@@ -164,12 +165,14 @@
     .work .work_card h4 {
         font-size: 23px;
         font-weight: 600;
+        margin: 7px 0 12px 0px;
 
     }
 
     .work .work_card p {
         font-size: 14px;
         width: auto;
+        margin: 0;
     }
 
 
@@ -184,7 +187,7 @@
 
 
     .project {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 
     .project .title {
@@ -204,13 +207,14 @@
 
     .project .title .ancor {
         display: flex;
-        align-items: center;
+        text-align: center;
+        flex-direction: column;
         margin: 0;
         position: relative;
     }
 
     .project .title .ancor i {
-        left: 200px;
+        display: none;
     }
 
     .project .title .ancor:hover i {
@@ -236,7 +240,7 @@
     .project .col-lg-4 .imgOne {
         width: 91%;
         height: auto;
-        margin: 15px auto;
+        margin: 20px auto;
         /* position: relative; */
         /* overflow: hidden; */
     }
@@ -274,7 +278,7 @@
 
 
     .features {
-        padding: 35px 0 40px 0;
+        padding: 50px 0;
     }
 
     .features .title p {
@@ -322,7 +326,7 @@
 
 
     .about {
-        padding: 20px 0;
+        padding: 50px 0;
 
     }
 
@@ -377,8 +381,8 @@
 
 
     .faq {
-        
-        margin: 30px 0;
+
+        margin: 50px 0;
     }
 
     .faq .col-lg-4 .title {
@@ -404,19 +408,255 @@
     }
 
     .faq .col-lg-8 .accordion-item .accordion-button {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 26px;
     }
 
     .faq .col-lg-8 .accordion-body p {
         font-size: 12px;
-        padding: 0;
+        padding: 0 0 0 40px;
         margin: 0;
         width: auto;
         line-height: 22px;
     }
 
 
+
+
+
+
+
+
+    /*!        contact_Card         */
+
+
+
+
+    .contact_Card {
+        padding: 50px 0 78px 0;
+    }
+
+
+    .contact_Card .row .col-lg-6 .img {
+        width: 92%;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    .contact_Card .row .col-lg-6 .overly {
+        display: none;
+    }
+
+    .contact_Card .row .col-lg-6 .img::after {
+        display: none;
+    }
+
+    .contact_Card .row .right {
+        padding: 60px 30px 30px;
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .contact_Card .row .right h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact_Card .row .right p {
+        font-size: 14px;
+        margin: 20px 0px 40px 2px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .contact_Card .row .right .btn {
+        margin: 32px 0px 34px 0;
+        width: 100%;
+        padding: 15px 50px;
+        font-size: 14px;
+    }
+
+    .contact_Card .row .right .btn:hover {
+        background: none;
+        color: #ffffff;
+    }
+
+    .contact_Card .row .right .ancor a {
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+
+    .blog .card .card-body .ancor i {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*!       blog       */
+
+
+
+
+    .blog {
+        padding: 77px 0 80px 0;
+    }
+
+    .blog .title h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .card-img-top {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .blog .card {
+        padding: 0 0 20px 0;
+        margin: 20px 0;
+        box-shadow: 1px 1px 1px black;
+    }
+
+    .blog .card:hover {
+        border: 1px solid transparent;
+    }
+
+    .blog .card .card-body {
+        padding: 0 14px;
+    }
+
+    .blog .card .card-body .card-subtitle {
+        font-size: 14px;
+    }
+
+    .blog .card .card-body .card-title {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .blog .card .card-body .card-text {
+        font-size: 15px;
+        margin: 0px 0 20px 0;
+    }
+
+
+
+
+    .footer .row {
+        padding: 60px 0;
+    }
+
+    .footer .row .col-lg-5 .upper p {
+        font-size: 12px;
+        width: auto;
+        margin: 25px 0 35px 0;
+    }
+
+    .footer .row .col-lg-5 .upper_lower {
+        /* flex-direction: column; */
+        background-color: #FCD980;
+        text-align: center;
+        max-width: 400px;
+        color: #1B1C2B;
+        padding: 0 0 0 0;
+    }
+
+    .footer .row .col-lg-5 .upper_lower .left {
+        width: auto;
+        margin: 10px auto;
+    }
+
+    .footer .row .col-lg-5 .upper_lower .right {
+        width: auto;
+        margin: 10px auto;
+    }
+
+    .footer .row .col-lg-5 .upper_lower .box h6 {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .row .col-lg-5 .upper_lower .box a {
+        font-size: 12px;
+    }
+
+
+    .footer .row .col-lg-7 .lower {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .footer .row .col-lg-7 .lower h4 {
+        font-size: 22px;
+    }
+
+    .footer .row .col-lg-7 .lower p {
+        font-size: 12px;
+        width: auto;
+        line-height: 24px;
+        margin: 14px 0 20px 0;
+    }
+
+    .footer .row .col-lg-7 .lower li i {
+        font-size: 14px;
+    }
+
+    .footer .row .col-lg-7 .lower li i:hover {
+        color: #d8cdcd;
+    }
+
+
+
+
+
+
+
+
+    /*!       low-footer        */
+
+
+
+    .low-footer {
+        padding: 20px 0 0px 0;
+    }
+
+    .low-footer .box {
+        align-items: center;
+    }
+
+    .low-footer .box .left p {
+        font-size: 12px;
+    }
+
+    .low-footer .box .left p a {
+        font-size: 12px;
+    }
+
+    .low-footer .box .right ul {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+
+    .low-footer .box .right ul a {
+        font-size: 11px;
+    }
 
 
 
