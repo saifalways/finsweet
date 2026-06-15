@@ -489,11 +489,9 @@
         color: #FFFFFF;
     }
 
-    .blog .card .card-body .ancor i {
+    .contact_Card .row .right .ancor i {
         display: none;
     }
-
-
 
 
 
@@ -554,6 +552,24 @@
         font-size: 15px;
         margin: 0px 0 20px 0;
     }
+
+    .blog .card .card-body .ancor i {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    /*!         Footer         */
+
+
+
+
+
 
 
 
@@ -651,7 +667,7 @@
     .low-footer .box .right ul {
         display: flex;
         flex-wrap: wrap;
-        column-gap: 15px;
+        column-gap: 14px;
     }
 
     .low-footer .box .right ul a {
