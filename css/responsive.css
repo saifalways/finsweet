@@ -1476,7 +1476,25 @@
 
 
 
-    .work {
+
+
+
+    .work .title h2 {
+        font-size: 28px;
+    }
+
+    .work .title p {
+        font-size: 14px;
+    }
+
+    .work .title a {
+        font-size: 13px;
+    }
+
+
+
+
+    /* .work {
         padding: 25px 0 50px 0;
     }
 
@@ -1526,7 +1544,7 @@
         font-size: 14px;
         width: auto;
         margin: 0;
-    }
+    } */
 
 
 
