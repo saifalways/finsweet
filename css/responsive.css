@@ -1476,75 +1476,44 @@
 
 
 
-
-
-
-    .work .title h2 {
-        font-size: 28px;
+    .work {
+        padding: 50px 0;
     }
 
-    .work .title p {
-        font-size: 14px;
-    }
-
-    .work .title a {
-        font-size: 13px;
-    }
-
-
-
-
-    /* .work {
-        padding: 25px 0 50px 0;
-    }
 
     .work .title {
+        margin: 40px 0 0 0;
         text-align: center;
     }
 
     .work .title h2 {
-        font-size: 28px;
+        font-size: 37px;
     }
 
     .work .title p {
-        font-size: 12px;
-        width: auto;
+        font-size: 16px;
+        margin: 16px auto 16px auto;
     }
 
     .work .work_box {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 22px 0 0 0;
-        row-gap: 18px;
+        margin: 20px auto;
     }
 
-    .work .work_card {
-        width: auto;
-        text-align: center;
-        box-shadow: 0px 0px 3px black;
-        margin: 0 auto;
-    }
-
-    .work .work_card:hover {
-        border: 1px solid transparent;
-    }
-
-    .work .work_card img {
-        width: 40px;
+    .work img {
+        width: 16%;
     }
 
     .work .work_card h4 {
-        font-size: 23px;
-        font-weight: 600;
-        margin: 7px 0 12px 0px;
-
+        font-size: 26px;
+        margin: 16px 0 11px 0;
     }
 
     .work .work_card p {
         font-size: 14px;
-        width: auto;
-        margin: 0;
-    } */
+    }
+
+
+
 
 
 
@@ -1649,15 +1618,15 @@
 
 
     .features {
-        padding: 50px 0;
+        padding: 90px 0;
     }
 
     .features .title p {
-        font-size: 15px;
+        font-size: 19px;
     }
 
     .features .title h2 {
-        font-size: 22px;
+        font-size: 27px;
         width: auto;
         line-height: 30px;
     }
@@ -1677,8 +1646,12 @@
         margin: 0 auto;
     }
 
+    .features .row .col-lg-4 .card h4 {
+        font-size: 25px;
+    }
+
     .features .row .col-lg-4 .card p {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         font-family: "Poppins", sans-serif;
         width: auto;
@@ -1762,7 +1735,7 @@
     }
 
     .faq .col-lg-4 h3 {
-        font-size: 21px;
+        font-size: 27px;
         width: auto;
         text-align: center;
         line-height: 39px;
@@ -1779,16 +1752,18 @@
     }
 
     .faq .col-lg-8 .accordion-item .accordion-button {
-        font-size: 17px;
+        font-size: 19px;
         line-height: 35px;
     }
 
+
+
     .faq .col-lg-8 .accordion-body p {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0 0 0 40px;
         margin: 0;
         width: auto;
-        line-height: 25px;
+        line-height: 32px;
     }
 
 
@@ -1830,14 +1805,14 @@
     }
 
     .contact_Card .row .right h4 {
-        font-size: 22px;
+        font-size: 28px;
         text-align: center;
     }
 
     .contact_Card .row .right p {
-        font-size: 14px;
+        font-size: 16px;
         margin: 20px 0px 40px 2px;
-        line-height: 25px;
+        line-height: 28px;
         text-align: center;
     }
 
@@ -1887,7 +1862,7 @@
     }
 
     .blog .title h2 {
-        font-size: 28px;
+        font-size: 34px;
         text-align: center;
     }
 
@@ -1950,7 +1925,7 @@
     }
 
     .footer .row .col-lg-5 .upper p {
-        font-size: 14px;
+        font-size: 15px;
         width: auto;
         margin: 25px 0 35px 0;
     }
@@ -1990,18 +1965,18 @@
     }
 
     .footer .row .col-lg-7 .lower h4 {
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .footer .row .col-lg-7 .lower p {
-        font-size: 14px;
+        font-size: 15px;
         width: auto;
-        line-height: 24px;
-        margin: 14px 0 20px 0;
+        line-height: 29px;
+        margin: 14px 0 23px 0;
     }
 
     .footer .row .col-lg-7 .lower li i {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .footer .row .col-lg-7 .lower li i:hover {
@@ -2028,11 +2003,11 @@
     }
 
     .low-footer .box .left p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .low-footer .box .left p a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer .row .col-lg-7 .lower li i {
@@ -2046,7 +2021,7 @@
     }
 
     .low-footer .box .right ul a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
 
